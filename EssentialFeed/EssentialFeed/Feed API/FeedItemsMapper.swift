@@ -22,5 +22,3 @@ internal final class FeedItemsMapper {
         return root.items
     }
 }
-
-
