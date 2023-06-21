@@ -13,7 +13,7 @@ class FeedStore {
     typealias DeletionCompletion = (Error?) -> Void
     var deleteCachedFeedCallCount = 0
     var insertCallCount = 0
-    var deletionCompletions = [DeletionCompletion]()
+    private var deletionCompletions = [DeletionCompletion]()
     
     func deleteCachedFeed(completion: @escaping (Error?) -> Void) {
         deleteCachedFeedCallCount += 1
