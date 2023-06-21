@@ -132,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				013061D1262AB429009EB370 /* Info.plist */,
+				013C9132262DEB240017C186 /* Helpers */,
 				A246B6422A437223007707DF /* Feed Cache */,
 				01523907262CA39100502CBE /* Feed API */,
 			);
@@ -169,7 +170,6 @@
 		01523907262CA39100502CBE /* Feed API */ = {
 			isa = PBXGroup;
 			children = (
-				013C9132262DEB240017C186 /* Helpers */,
 				013061EC262AB9B6009EB370 /* LoadFeedFromRemoteUseCaseTests.swift */,
 				019C03F8262D495F003A14BC /* URLSessionHTTPClientTests.swift */,
 			);
