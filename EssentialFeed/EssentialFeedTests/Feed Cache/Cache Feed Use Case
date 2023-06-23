@@ -4,8 +4,8 @@
 - Feed items
 
 #### Primary course(happy path):
-1. Execute "Save Feed Items" command with above data.
-2. System deletes old cache data.
+✅ Execute "Save Feed Items" command with above data.
+✅ System deletes old cache data.
 3. System encodes feed items.
 4. System timestamps the new data.
 5. System saves new cache data.
@@ -16,3 +16,15 @@
 
 #### Saving error course (sad path):
 1. System delivers error.
+
+
+####4 Timestamp
+1. The current date/time is not a pure function
+   (every time you create a Date instance, it has a different value-the current date & time)
+   
+2. Instead of letting the Use Case produce the current date via the impure Date.init() function directly,
+   we can move this responsibility to a collaborator (a simple closure in this case),
+   and inject it as a dependency. Then we can easily control the current date/time during tests.
+
+
+
