@@ -25,11 +25,12 @@ class LocalFeedLoader {
 }
 
 class FeedStore {
-    var deletionCompletions = [(Error?) -> Void]()
+    typealias DeletionCompletion = (Error?) -> Void
+    var deletionCompletions = [DeletionCompletion]()
     var deleteCachedFeedCallCount = 0
     var insertCallCount = 0
     
-    func deleteCachedFeed(completion: @escaping (Error?) -> Void) {
+    func deleteCachedFeed(completion: @escaping DeletionCompletion) {
         deleteCachedFeedCallCount += 1
         deletionCompletions.append(completion)
     }
