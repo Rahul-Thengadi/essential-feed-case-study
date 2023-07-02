@@ -12,9 +12,5 @@ internal struct RemoteFeedItem: Decodable {
     internal let description: String?
     internal let location: String?
     internal let image: URL
-    
-    var item: FeedImage {
-        return FeedImage(id: id, description: description, location: location, url: image)
-    }
 }
 
