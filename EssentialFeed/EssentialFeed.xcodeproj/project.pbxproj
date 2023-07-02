@@ -23,6 +23,7 @@
 		A2ED6EBF2A4FFA830059104E /* CacheFeedUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ED6EBE2A4FFA830059104E /* CacheFeedUseCaseTests.swift */; };
 		A2F204582A50923D0072AA62 /* LocalFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F204572A50923D0072AA62 /* LocalFeedLoader.swift */; };
 		A2F2045A2A5093740072AA62 /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F204592A5093740072AA62 /* FeedStore.swift */; };
+		A2F2045C2A51657A0072AA62 /* RemoteFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F2045B2A51657A0072AA62 /* RemoteFeedItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		A2ED6EBE2A4FFA830059104E /* CacheFeedUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheFeedUseCaseTests.swift; sourceTree = "<group>"; };
 		A2F204572A50923D0072AA62 /* LocalFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedLoader.swift; sourceTree = "<group>"; };
 		A2F204592A5093740072AA62 /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
+		A2F2045B2A51657A0072AA62 /* RemoteFeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 				015238FD262C96F700502CBE /* HTTPClient.swift */,
 				01523901262C975700502CBE /* FeedItemsMapper.swift */,
 				0126D1DB262EAB6700EE2683 /* URLSessionHTTPClient.swift */,
+				A2F2045B2A51657A0072AA62 /* RemoteFeedItem.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 			files = (
 				01523902262C975700502CBE /* FeedItemsMapper.swift in Sources */,
 				013061E6262AB654009EB370 /* FeedLoader.swift in Sources */,
+				A2F2045C2A51657A0072AA62 /* RemoteFeedItem.swift in Sources */,
 				013061F6262ACC24009EB370 /* RemoteFeedLoader.swift in Sources */,
 				A2F2045A2A5093740072AA62 /* FeedStore.swift in Sources */,
 				A2F204582A50923D0072AA62 /* LocalFeedLoader.swift in Sources */,
