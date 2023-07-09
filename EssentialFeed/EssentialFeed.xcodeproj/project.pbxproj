@@ -34,6 +34,7 @@
 		A2F2045E2A5165D70072AA62 /* LocalFeedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F2045D2A5165D70072AA62 /* LocalFeedImage.swift */; };
 		A2F204622A5171CC0072AA62 /* LoadFeedFromCacheUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F204612A5171CC0072AA62 /* LoadFeedFromCacheUseCaseTests.swift */; };
 		A2F204652A5178AE0072AA62 /* FeedStoreSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F204642A5178AE0072AA62 /* FeedStoreSpy.swift */; };
+		A2FD59502A5A319D00CA491C /* XCTestCase+FailableRetrieveFeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FD594F2A5A319D00CA491C /* XCTestCase+FailableRetrieveFeedStoreSpecs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		A2F2045D2A5165D70072AA62 /* LocalFeedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedImage.swift; sourceTree = "<group>"; };
 		A2F204612A5171CC0072AA62 /* LoadFeedFromCacheUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFeedFromCacheUseCaseTests.swift; sourceTree = "<group>"; };
 		A2F204642A5178AE0072AA62 /* FeedStoreSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStoreSpy.swift; sourceTree = "<group>"; };
+		A2FD594F2A5A319D00CA491C /* XCTestCase+FailableRetrieveFeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FailableRetrieveFeedStoreSpecs.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +214,7 @@
 				A2E02A962A525EBC00BF9F29 /* ValidateFeedCacheUseCaseTests.swift */,
 				A2C77CF32A53C7FA00FBC689 /* CodableFeedStoreTests.swift */,
 				A2B35D832A59D4400096F6CD /* XCTestCase+FeedStoreSpecs.swift */,
+				A2FD594F2A5A319D00CA491C /* XCTestCase+FailableRetrieveFeedStoreSpecs.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -405,6 +408,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2C77CF42A53C7FA00FBC689 /* CodableFeedStoreTests.swift in Sources */,
+				A2FD59502A5A319D00CA491C /* XCTestCase+FailableRetrieveFeedStoreSpecs.swift in Sources */,
 				A212BCA02A5286700004E963 /* FeedCacheTestHelpers.swift in Sources */,
 				013061ED262AB9B6009EB370 /* LoadFeedFromRemoteUseCaseTests.swift in Sources */,
 				019C03F9262D495F003A14BC /* URLSessionHTTPClientTests.swift in Sources */,
